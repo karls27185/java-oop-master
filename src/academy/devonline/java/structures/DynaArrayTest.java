@@ -17,8 +17,8 @@
 package academy.devonline.java.structures;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 class DynaArrayTest {
     public static void main(String[] args) {

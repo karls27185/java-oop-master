@@ -28,8 +28,8 @@ import java.util.Arrays;
 import static java.sql.DriverManager.getConnection;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class ExceptionConversion {
 

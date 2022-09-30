@@ -17,8 +17,8 @@
 import java.util.Scanner;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class Program {
     public static void main(String[] args) {

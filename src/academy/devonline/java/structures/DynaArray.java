@@ -19,8 +19,8 @@ package academy.devonline.java.structures;
 import java.util.Arrays;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public final class DynaArray extends BaseDataStructure {
 

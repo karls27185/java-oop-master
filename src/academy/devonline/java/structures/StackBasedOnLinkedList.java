@@ -17,8 +17,8 @@
 package academy.devonline.java.structures;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public final class StackBasedOnLinkedList extends BasedOnLinkedListDataStorage {
 

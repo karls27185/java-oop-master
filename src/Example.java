@@ -17,8 +17,8 @@
 import academy.devonline.java.section031_polymorphism.LateBinding;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class Example extends LateBinding.Parent {
 

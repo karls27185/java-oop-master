@@ -17,14 +17,14 @@
 package academy.devonline.java.section091_exception_usage;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class ConfigureExceptionCharacteristics {
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     public static final class Ex0 extends RuntimeException {
 
@@ -39,8 +39,8 @@ public class ConfigureExceptionCharacteristics {
     }
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     public static final class Ex1 extends RuntimeException {
 
@@ -56,8 +56,8 @@ public class ConfigureExceptionCharacteristics {
     }
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     public static final class Ex2 extends RuntimeException {
 
@@ -90,8 +90,8 @@ public class ConfigureExceptionCharacteristics {
     }
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     public static final class Ex3 extends RuntimeException {
 
