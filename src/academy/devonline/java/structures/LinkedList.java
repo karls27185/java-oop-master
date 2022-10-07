@@ -125,8 +125,8 @@ public final class LinkedList extends BaseDataStructure {
     }
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     private static class Pair {
 
@@ -141,8 +141,8 @@ public final class LinkedList extends BaseDataStructure {
     }
 
     /**
-     * @author devonline
-     * @link http://devonline.academy/java
+     * @author Karl
+     * @link https://babayan.keenetic.link/
      */
     private static class Item {
 
@@ -154,6 +154,4 @@ public final class LinkedList extends BaseDataStructure {
             this.value = value;
         }
     }
-
-
 }

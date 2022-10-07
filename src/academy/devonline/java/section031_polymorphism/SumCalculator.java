@@ -17,8 +17,8 @@
 package academy.devonline.java.section031_polymorphism;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class SumCalculator {
 
@@ -31,8 +31,6 @@ public class SumCalculator {
     }
 
     public static void main(String[] args) {
-        //ArrayElementsProvider arrayElementsProvider = new FromRAMArrayElementsProvider(new int[]{1, 2, 3, 4, 5});
-        ArrayElementsProvider arrayElementsProvider = new FromClasspathResourceArrayElementsProvider("data.txt");
-        System.out.println(sum(arrayElementsProvider));
+
     }
 }

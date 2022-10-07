@@ -35,8 +35,6 @@ public interface DataStructure {
     void clear();
 
     int[] toArray();
-
     boolean remove(int value);
-
     boolean contains(int value);
 }

@@ -17,8 +17,8 @@
 package academy.devonline.java.section031_polymorphism;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public interface ArrayElementsProvider {
 

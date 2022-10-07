@@ -22,7 +22,7 @@ package academy.devonline.java.section031_polymorphism;
  */
 public class FromRAMArrayElementsProvider implements ArrayElementsProvider {
 
-    private int[] array;
+    private final int[] array;
 
     private int index;
 

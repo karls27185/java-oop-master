@@ -27,7 +27,7 @@ import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
  */
 public class CompositionInsteadOfInheritance {
 
-    private JFrame frame;
+    private final JFrame frame;
 
     public CompositionInsteadOfInheritance() {
         frame = new JFrame();

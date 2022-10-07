@@ -25,7 +25,7 @@ public class ObjectToString {
     public static void main(String[] args) {
         ObjectToString object = new ObjectToString();
         System.out.println(object);
-        System.out.println(object.toString());
+        System.out.println(object);
     }
 
     @Override

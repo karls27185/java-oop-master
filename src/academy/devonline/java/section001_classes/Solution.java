@@ -28,7 +28,7 @@ public class Solution {
 
         DynaArray result = getPositiveNumbers(array);
 
-        System.out.println(result.toString());
+        System.out.println(result);
     }
 
     private static DynaArray getPositiveNumbers(int[] array) {

@@ -27,7 +27,7 @@ import java.util.Objects;
  */
 public class FromClasspathResourceArrayElementsProvider implements ArrayElementsProvider {
 
-    private BufferedReader reader;
+    private final BufferedReader reader;
 
     private String line;
 

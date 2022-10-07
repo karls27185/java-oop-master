@@ -22,7 +22,7 @@ package academy.devonline.java.section001_classes;
  */
 public class UseConstructorOrNot {
 
-    private int[] result;
+    private final int[] result;
 
     private int count;
 

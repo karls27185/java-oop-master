@@ -22,7 +22,7 @@ package academy.devonline.java.section001_classes;
  */
 public class ConstructorAlternative {
 
-    private int value;
+    private final int value;
 
     public ConstructorAlternative() {
         //value = 23;

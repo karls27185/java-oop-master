@@ -20,10 +20,11 @@ import academy.devonline.java.structures.DataStructure;
 import academy.devonline.java.structures.DynaArray;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class WhatIsPolymorphism {
+
     public static void main(String[] args) {
         DataStructure dataStructure = getAllProductsSelectedByUser();
         createOrder(dataStructure);

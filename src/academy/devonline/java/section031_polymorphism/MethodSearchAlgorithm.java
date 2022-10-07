@@ -25,7 +25,7 @@ public class MethodSearchAlgorithm {
         GrandParent o = new Child();
         o.doSomething();
         o.doSomething2();
-        System.out.println(o.toString());
+        System.out.println(o);
         System.out.println(o.getClass());
     }
 
