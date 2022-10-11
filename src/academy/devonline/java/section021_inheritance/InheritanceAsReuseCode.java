@@ -20,8 +20,8 @@ import javax.swing.*;
 import java.awt.*;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class InheritanceAsReuseCode {
 

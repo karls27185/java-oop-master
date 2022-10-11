@@ -22,8 +22,8 @@ import java.awt.*;
 import static javax.swing.WindowConstants.EXIT_ON_CLOSE;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class CompositionInsteadOfInheritance {
 

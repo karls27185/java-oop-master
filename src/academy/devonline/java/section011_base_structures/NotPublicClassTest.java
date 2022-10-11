@@ -17,8 +17,8 @@
 package academy.devonline.java.section011_base_structures;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class NotPublicClassTest {
 

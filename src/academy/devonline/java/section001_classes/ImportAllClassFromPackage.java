@@ -22,8 +22,8 @@ import java.util.Arrays;
 import java.util.BitSet;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class ImportAllClassFromPackage {
     public static void main(String[] args) {

@@ -32,8 +32,8 @@ import java.util.Arrays;
 */
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class PrimitivesVsObjects {
     public static void main(String[] args) {

@@ -25,8 +25,8 @@ package academy.devonline.java.section021_inheritance;
  * <p>
  * protected -> public
  *
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class OverrideWithAccessModifier {
 

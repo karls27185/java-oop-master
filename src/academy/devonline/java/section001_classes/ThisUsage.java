@@ -17,8 +17,8 @@
 package academy.devonline.java.section001_classes;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class ThisUsage {
 

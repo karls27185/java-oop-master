@@ -33,8 +33,8 @@ import academy.devonline.java.structures.DynaArray;
  */
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class DefaultValues {
     boolean aBoolean;

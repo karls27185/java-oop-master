@@ -19,8 +19,8 @@ package academy.devonline.java.section011_base_structures;
 import academy.devonline.java.structures.LinkedList;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class GCExampleTest {
 

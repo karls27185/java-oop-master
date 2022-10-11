@@ -20,8 +20,8 @@ import academy.devonline.java.structures.DynaArray;
 import academy.devonline.java.structures.LinkedList;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class MethodInheritance {
     public static void main(String[] args) {

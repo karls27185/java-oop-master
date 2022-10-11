@@ -23,8 +23,8 @@ import java.util.Arrays;
 //import java.lang.String;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class JavaLang {
     public static void main(String[] args) {

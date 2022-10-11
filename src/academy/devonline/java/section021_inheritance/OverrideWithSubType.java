@@ -17,8 +17,8 @@
 package academy.devonline.java.section021_inheritance;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class OverrideWithSubType {
 
@@ -31,6 +31,10 @@ public class OverrideWithSubType {
 
     private static class Child extends Parent {
 
+//        @Override
+//        Parent getOwner() {
+//            return this;
+//        }
         @Override
         Child getOwner() {
             return this;

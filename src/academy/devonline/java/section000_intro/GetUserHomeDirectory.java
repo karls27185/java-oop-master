@@ -17,8 +17,8 @@
 package academy.devonline.java.section000_intro;
 
 /**
- * @author devonline
- * @link http://devonline.academy/java
+ * @author Karl
+ * @link https://babayan.keenetic.link/
  */
 public class GetUserHomeDirectory {
     public static void main(String[] args) {
