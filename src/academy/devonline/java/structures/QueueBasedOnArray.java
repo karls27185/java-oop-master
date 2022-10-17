@@ -20,8 +20,7 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
             size--;
             return result;
         } else {
-            // TODO throw Exception
-            return 0;
+            throw new RuntimeException("Queue is empty");
         }
     }
 */
@@ -32,5 +31,10 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
         System.arraycopy(array, 1, array, 0, array.length - 1);
         size--;
         return result;
+    }
+
+    @Override
+    protected RuntimeException createEmptyException() {
+        return new RuntimeException("Queue is empty");
     }
 }

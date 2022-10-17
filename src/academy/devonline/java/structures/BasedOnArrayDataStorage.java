@@ -4,11 +4,9 @@ package academy.devonline.java.structures;
  * @author Karl
  * @link https://babayan.keenetic.link/
  */
-public abstract class BasedOnArrayDataStorage implements DataStorage {
+public abstract class BasedOnArrayDataStorage extends BaseDataStorage {
 
     protected int[] array;
-
-    protected int size;
 
     public BasedOnArrayDataStorage(int size) {
         array = new int[size];
@@ -37,15 +35,12 @@ public abstract class BasedOnArrayDataStorage implements DataStorage {
         if (size > 0) {
             return getIfNotEmpty();
         } else {
-            // TODO throw Exception
-            return 0;
+            throw createEmptyException();
         }
     }
 
+    protected abstract RuntimeException createEmptyException();
+
     protected abstract int getIfNotEmpty();
 
-    @Override
-    public final int size() {
-        return size;
-    }
 }

@@ -7,15 +7,12 @@ package academy.devonline.java.structures;
 class DataStorageTest {
 
     public static void main(String[] args) {
-        DataStorage dataStorage = new QueueBasedOnArray(); // new Stack() or new Queue();
-        DataStorage dataStorage2 = new StackBasedOnArray(); // new Stack() or new Queue();
+//        DataStorage dataStorage = new QueueBasedOnArray(); // new Stack() or new Queue();
+//        DataStorage dataStorage = new StackBasedOnArray();
+        DataStorage dataStorage = new QueueBasedOnLinkedList();
 
         for (int i = 0; i < 5; i++) {
             dataStorage.add(i);
-        }
-
-        for (int i = 0; i < 5; i++) {
-            dataStorage2.add(i);
         }
 
         // 4 3 2 1 0 = for Stack
@@ -25,9 +22,5 @@ class DataStorageTest {
         }
         System.out.println();
 
-        while (dataStorage2.size() > 0) {
-            System.out.print(dataStorage2.get() + " ");
-        }
-        System.out.println();
     }
 }
