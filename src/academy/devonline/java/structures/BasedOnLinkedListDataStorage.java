@@ -8,13 +8,13 @@ package academy.devonline.java.structures;
 public abstract class BasedOnLinkedListDataStorage extends BaseDataStorage {
 
     protected Item first;
-    protected Item last;
+
 
     @Override
     public final void add(int value) {
         Item item = new Item(value);
         if (first == null) {
-            first = last = item;
+            first = item;
         } else {
             addNextItem(item);
         }
@@ -24,14 +24,11 @@ public abstract class BasedOnLinkedListDataStorage extends BaseDataStorage {
     protected abstract void addNextItem(Item item);
 
     @Override
-    public final int get() {
+    public int get() {
         if (size > 0) {
             int result = first.value;
             first = first.next;
             size--;
-            if (size == 0) {
-                last = null;
-            }
             return result;
         } else {
             throw new RuntimeException("Queue is empty");
