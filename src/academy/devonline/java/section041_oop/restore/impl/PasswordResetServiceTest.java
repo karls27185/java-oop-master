@@ -30,5 +30,16 @@ final class PasswordResetServiceTest {
         passwordResetServiceTest.test("test0@babayan.keenetic.link");
         passwordResetServiceTest.test("test1@babayan.keenetic.link");
         passwordResetServiceTest.test("test2@babayan.keenetic.link");
+
+        passwordResetServiceTest = new PasswordResetServiceTest(new PasswordResetService(
+                new FromRAMAccountRepository(),
+                new ShowSuccessAccountNotFoundByEmailHandler(),
+                new DisableAccountNotActiveHandler(),
+                new DefaultNumberVerificationCodeGenerator(6),
+                new StubEmailService()
+        ));
+        passwordResetServiceTest.test("test0@babayan.keenetic.link");
+        passwordResetServiceTest.test("test1@babayan.keenetic.link");
+        passwordResetServiceTest.test("test2@babayan.keenetic.link");
     }
 }
