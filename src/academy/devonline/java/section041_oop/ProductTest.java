@@ -13,6 +13,8 @@ public class ProductTest {
             System.out.println(product.name);
             System.out.println(product.description);
             System.out.println(product.price);
+
+            System.out.println(product.getPrice());
         }
     }
 }
