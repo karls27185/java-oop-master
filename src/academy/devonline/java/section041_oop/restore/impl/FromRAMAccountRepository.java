@@ -9,7 +9,7 @@ import academy.devonline.java.section041_oop.restore.AccountRepository;
  */
 public final class FromRAMAccountRepository implements AccountRepository {
 
-    private DefaultAccount[] accounts = {
+    private final DefaultAccount[] accounts = {
             new DefaultAccount("test1@babayan.keenetic.link", true),
             new DefaultAccount("test2@babayan.keenetic.link", false)
     };
