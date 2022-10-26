@@ -10,11 +10,14 @@ public class ProductTest {
         Product[] products = null;
 
         for (Product product : products) {
-            System.out.println(product.name);
-            System.out.println(product.description);
-            System.out.println(product.price);
 
+            //product.price = new BigDecimal("-23.23");
+            //product.setPrice(new BigDecimal("-23.23"));
+
+            System.out.println(product.getName());
+            System.out.println(product.getDescription());
             System.out.println(product.getPrice());
+
         }
     }
 }
