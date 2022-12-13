@@ -1,0 +1,10 @@
+<xml>
+    <name>java-oop</name>
+    <name></name>
+    <name/>
+    <sources>
+        <language-level>11</language-level>
+        <sourcee-folders>src</sourcee-folders>
+        <excluded>out</excluded>
+    </sources>
+</xml>
