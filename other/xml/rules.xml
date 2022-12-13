@@ -16,4 +16,7 @@
                 <item>12</item>
             </complex>
     </sources>
+    <example>
+        &lt;name name=&apos;value&apos;&gt;java-oop&lt;/name&gt;
+    </example>
 </xml>
