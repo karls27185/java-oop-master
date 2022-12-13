@@ -6,6 +6,13 @@
         <language-level>11</language-level>
         <sourcee-folders>src</sourcee-folders>
         <excluded>out</excluded>
+        <complex>
+            <item>12</item>
+        </complex>
     </sources>
-    <sources language-level="11" sourcee-folders="src" excluded="out"/>
+    <sources language-level="11" sourcee-folders="src" excluded="out">
+            <complex>
+                <item>12</item>
+            </complex>
+    </sources>
 </xml>
