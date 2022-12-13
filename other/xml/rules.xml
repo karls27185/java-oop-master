@@ -1,17 +1,24 @@
+<?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
+<?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
+<?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
+<?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
+
 <xml>
+    <?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
     <name name="value">java-oop</name>
     <name>&lt;&gt;&amp;&apos;&quot;</name>
     <name/>
     <sources>
         <language-level>11</language-level>
-        <sourcee-folders>src</sourcee-folders>
+        <source-folders>src</source-folders>
         <excluded>out</excluded>
         <complex>
+            <?processing-instruction-name language-level="11" source-folders="src" excluded="out" ?>
             <item>12</item>
         </complex>
     </sources>
     <!-- comment example -->
-    <sources language-level="11" sourcee-folders="src" excluded="out">
+    <sources language-level="11" source-folders="src" excluded="out">
         <complex>
             <item>12</item>
         </complex>
@@ -23,7 +30,7 @@
         <![CDATA[
             <sources>
                 <language-level>11</language-level>
-                <sourcee-folders>src</sourcee-folders>
+                <source-folders>src</source-folders>
                 <excluded>out</excluded>
                 <complex>
                     <item>12</item>
