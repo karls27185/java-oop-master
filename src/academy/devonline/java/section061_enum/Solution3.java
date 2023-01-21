@@ -31,9 +31,15 @@ public class Solution3 {
 
     public static void main(final String[] args) {
         Task task = new Task();
+        System.out.println(Status.STARTED);
+        System.out.println(Status.STARTED.ordinal());
         //
         task.setStatus(Status.IN_PROGRESS);
+        System.out.println(Status.IN_PROGRESS);
+        System.out.println(Status.IN_PROGRESS.ordinal());
         //
         task.setStatus(Status.COMPLETED);
+        System.out.println(Status.COMPLETED);
+        System.out.println(Status.COMPLETED.ordinal());
     }
 }
