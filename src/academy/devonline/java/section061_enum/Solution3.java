@@ -27,10 +27,6 @@ public class Solution3 {
         public void setStatus(final Status status) {
             this.status = status;
         }
-
-        public Status getStatus(Status status) {
-            return status;
-        }
     }
 
     public static void main(final String[] args) {
