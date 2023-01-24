@@ -5,4 +5,5 @@ package academy.devonline.java.section071_class_types;
  * @link https://babayan.keenetic.link/
  */
 public @interface Annotation {
+    static class Inner{}
 }

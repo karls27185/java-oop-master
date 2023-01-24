@@ -6,4 +6,6 @@ package academy.devonline.java.section071_class_types;
  */
 public interface Interface {
     void method1();
+
+    static class Inner{}
 }
