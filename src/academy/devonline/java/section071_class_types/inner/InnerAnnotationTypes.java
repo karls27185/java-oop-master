@@ -1,11 +1,10 @@
-package academy.devonline.java.section071_class_types;
+package academy.devonline.java.section071_class_types.inner;
 
 /**
  * @author Karl
  * @link https://babayan.keenetic.link/
  */
-public interface InnerInterfaceTypes {
-
+public @interface InnerAnnotationTypes {
     static class StaticClass {
     }
 
