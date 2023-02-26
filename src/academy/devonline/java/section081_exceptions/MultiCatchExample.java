@@ -10,19 +10,22 @@ public class MultiCatchExample {
     public static void main(String[] args) {
         try {
             doSomething();
-        } catch (InputMismatchException e) {
+        } catch (Exception e) {
             System.err.println("InputMismatchException: " + e.getMessage());
-        } catch (NoSuchElementException e) {
-            System.err.println("NoSuchElementException: " + e.getMessage());
-        } catch (IllegalStateException e) {
-            System.err.println("IllegalStateException: " + e.getMessage());
-        } catch (IllegalArgumentException e) {
-            System.err.println("IllegalArgumentException: " + e.getMessage());
-        } catch (ArithmeticException e) {
-            System.err.println("ArithmeticException: " + e.getMessage());
-        } catch (ClassNotFoundException e) {
-            System.err.println("ClassNotFoundException: " + e.getMessage());
         }
+//         catch (InputMismatchException e) {
+//            System.err.println("InputMismatchException: " + e.getMessage());
+//        } catch (NoSuchElementException e) {
+//            System.err.println("NoSuchElementException: " + e.getMessage());
+//        } catch (IllegalStateException e) {
+//            System.err.println("IllegalStateException: " + e.getMessage());
+//        } catch (IllegalArgumentException e) {
+//            System.err.println("IllegalArgumentException: " + e.getMessage());
+//        } catch (ArithmeticException e) {
+//            System.err.println("ArithmeticException: " + e.getMessage());
+//        } catch (ClassNotFoundException e) {
+//            System.err.println("ClassNotFoundException: " + e.getMessage());
+//        }
 
         System.out.println("After doSomething()");
     }
