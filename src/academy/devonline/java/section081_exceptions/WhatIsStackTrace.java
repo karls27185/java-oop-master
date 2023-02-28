@@ -12,7 +12,7 @@ public class WhatIsStackTrace {
         try {
             method1();
         }catch (Exception e){
-            System.err.println(Arrays.toString(e.getStackTrace()));
+            e.printStackTrace();
         }
         method2();
     }
