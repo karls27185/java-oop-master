@@ -3,6 +3,7 @@ package academy.devonline.java.section091_exception_usage;
 import java.io.IOException;
 import java.nio.file.*;
 import java.sql.*;
+import java.util.Arrays;
 
 import static java.sql.DriverManager.getConnection;
 
@@ -16,13 +17,24 @@ public class ExceptionConversion {
                 new FileConfigProvider(),
                 new RelationDatabaseConfigProvider()};
         int configValue = 24;
+        boolean success = false;
+        CantReadConfigValueException aggregateException = null;
         for (final ConfigProvider provider : providers) {
             try {
                 configValue = provider.getConfigValue();
+                success = true;
                 break;
             } catch (final CantReadConfigValueException exception) {
-                exception.printStackTrace();
+                if (aggregateException == null) {
+                    aggregateException = new CantReadConfigValueException(
+                            "Can't read config value using the following providers: "
+                                    + Arrays.toString(providers));
+                }
+                aggregateException.addSuppressed(exception);
             }
+        }
+        if (!success){
+            throw aggregateException;
         }
         System.out.println(configValue);
     }
