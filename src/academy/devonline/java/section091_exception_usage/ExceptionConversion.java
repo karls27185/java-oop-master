@@ -33,8 +33,8 @@ public class ExceptionConversion {
                 aggregateException.addSuppressed(exception);
             }
         }
-        if (!success){
-            throw aggregateException;
+        if (!success) {
+            throw (CantReadConfigValueException) aggregateException.fillInStackTrace();
         }
         System.out.println(configValue);
     }
