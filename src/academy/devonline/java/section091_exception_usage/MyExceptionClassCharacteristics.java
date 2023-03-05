@@ -40,7 +40,7 @@ public class MyExceptionClassCharacteristics {
     }
 
 
-    public static final class MyException extends RuntimeException{
+    public static final class MyException extends RuntimeException {
         public MyException(final String message,
                            final Throwable cause,
                            final boolean enableSuppression,
@@ -53,7 +53,7 @@ public class MyExceptionClassCharacteristics {
         }
 
         public static MyException createWithMessage(final String message) {
-            return new MyException(message, null, true,true);
+            return new MyException(message, null, true, true);
         }
 
         public static MyException createWithCause(final Throwable cause) {
